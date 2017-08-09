@@ -6,6 +6,7 @@ public class CalcApp {
 
     private static boolean exitFlag;
     private String expression;
+    Calculator calc = new Calculator();
 
     public static void main(String[] args) {
         CalcApp application = new CalcApp();
